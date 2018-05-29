@@ -18,8 +18,8 @@ public class loginTest {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.id("user[login]")).sendKeys("sarah-geo");
-		driver.findElement(By.id("user[email]")).sendKeys("susmisarah@gmail.com");
-		driver.findElement(By.id("user[password]")).sendKeys("johanjosh123");
+		driver.findElement(By.id("user[email]")).sendKeys("xxxx.com");
+		driver.findElement(By.id("user[password]")).sendKeys("xxxxxx");
 		driver.findElement(By.xpath("//button[text()='Sign up for GitHub']")).click();;
 		
 	}

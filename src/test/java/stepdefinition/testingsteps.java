@@ -28,8 +28,8 @@ public class testingsteps {
 	@Given("^User enters an already existing account$")
 	public void user_enters_an_already_existing_account() {
 		driver.findElement(By.id("user[login]")).sendKeys("sarah-geo");
-		driver.findElement(By.id("user[email]")).sendKeys("susmisarah@gmail.com");
-		driver.findElement(By.id("user[password]")).sendKeys("johanjosh123");
+		driver.findElement(By.id("user[email]")).sendKeys("xxxxx.com");
+		driver.findElement(By.id("user[password]")).sendKeys("xxxxx");
 
 	}
 
